@@ -1,0 +1,28 @@
+{
+  "happy": [
+    {
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "url": "https://www.youtube.com/watch?v=y6Sxv-sUYtM"
+    },
+    {
+      "title": "Can't Stop The Feeling",
+      "artist": "Justin Timberlake",
+      "url": "https://www.youtube.com/watch?v=ru0K8uYEZWw"
+    }
+  ],
+  "sad": [
+    {
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
+    }
+  ],
+  "angry": [
+    {
+      "title": "Break Stuff",
+      "artist": "Limp Bizkit",
+      "url": "https://www.youtube.com/watch?v=ZpUYjpKg9KY"
+    }
+  ]
+}

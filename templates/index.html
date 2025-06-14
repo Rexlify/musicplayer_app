@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Song Recommender</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h2>Pick your mood:</h2>
+<div class="mood-buttons">
+  <button onclick="selectMood('happy')">😊 Happy</button>
+  <button onclick="selectMood('sad')">😢 Sad</button>
+  <button onclick="selectMood('angry')">😠 Angry</button>
+  <button onclick="selectMood('chill')">😌 Chill</button>
+</div>
+
+<script>
+function selectMood(mood) {
+  window.location.href = `/recommend/${mood}`;
+}
+</script>
+
+    
+</body>
+</html>
